@@ -1,0 +1,203 @@
+* {
+    margin: 0;
+}
+
+nav {
+    background-color: #21252988;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7px;
+}
+
+#nav-items {
+    display: flex;
+    gap: 15pt;
+}
+
+.list-item {
+    list-style-type: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+
+header {
+    background-image: url(/real_estaste_landing/assets/images/re2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 60vh;
+}
+
+.input-section {
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    position: relative;
+}
+
+input {
+    padding: 21px;
+    width: 300px;
+}
+
+.input-bg {
+    background-color: #21252988;
+    padding: 40px 40px 40px 40px;
+    
+}
+
+.btn {
+    display: inline-block;
+    border: none;
+    padding: 21px 44px;
+    min-width: 10px;
+    font-size: 16px;
+    background: #ff000a;
+    color: #fff;
+    line-height: normal;
+    cursor: pointer;
+    text-transform: uppercase;
+    text-align: center;
+} 
+
+.btn2 {
+    background-color: transparent;
+    border: 2px solid#fff;
+    text-align: center;
+    padding: 8px 15px;
+    margin-left: 25px;
+}
+
+.btn2 a {
+    color: #fff;
+    font-size: 12px;
+    font-family: "Lato", sans-serif;
+    display: inline-block;
+}
+
+.main-container {
+    width: 50%;
+    margin: auto;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+
+}
+
+.main-container h1 {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 2rem;
+}
+
+.flex-container {
+    display: flex;
+    margin-bottom: 20px;
+    gap: 20px;
+}
+
+.text-container {
+    width: 50%;
+}
+
+.image-container {
+    width: 50%;
+}
+
+.image-container img{
+    width: 100%;
+    height: 100%;
+}
+
+.main-section {
+    width: 100%;
+}
+
+.text-container h2 {
+    margin-bottom: 1.5rem;
+}
+
+.text-container p {
+    line-height: 1.6;
+    margin-bottom: 1.2rem;
+    color: gray;
+}
+
+.text-container a {
+    color: #ff000a;
+}
+
+.home h1 {
+    margin-top: 3rem;
+}
+
+.home-item h3 {
+     margin-bottom: 1.5rem;
+}
+
+.home-item h4 {
+    margin-bottom: 1.5rem;
+}
+
+.home-item p {
+    line-height: 1.6;
+    margin-bottom: 1.2rem;
+    color: gray;
+}
+
+.home-item img {
+    width: 100%;
+}
+
+.flex-home {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: 1fr;
+grid-column-gap: 20px;
+grid-row-gap: 0px;
+}
+
+.home-item a {
+    color: #ff000a;
+}
+
+.loan {
+    margin-top: 70px;
+    padding: 50px;
+    background-color: #212529;
+}
+
+.loan p {
+    color: #fff;
+    margin-bottom: 1.2rem;
+}
+
+.loan h1 {
+    color: #fff;
+    margin-bottom: 1.2rem;
+}
+.loan-input {
+    display: flex;
+    gap: 20px;
+}
+
+.loan-input button {
+    background: #ff000a;
+    border: none;
+    text-align: center;
+    padding: 8px 15px;
+    margin-left: 25px;
+    width: 100px;
+}
+
+.loan-input a {
+    color: #fff;
+    font-size: 12px;
+    font-family: "Lato", sans-serif;
+    display: inline-block;
+    text-decoration: none;
+}
